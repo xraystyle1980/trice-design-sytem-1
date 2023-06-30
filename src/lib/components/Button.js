@@ -1,23 +1,22 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const Buttonbase = styled.button`
-background-color: #11e6bf;
-color: white;
-font-family: Courier;
-font-size: 32px;
-border: none;
-padding: 16px 32px;
-border-radius: 8px;
-`
-  
 const Button = (props) => {  
   return (
-    <Buttonbase>	
+    <button
+      className="dribbble-button"
+      style={{
+        backgroundColor: '#eb4c89',
+				color: 'white',
+				fontFamily: 'Comic Sans MS',
+				fontSize: '24px',
+				border: 'none',
+				padding: '16px',
+				borderRadius: '8px'
+			      }}
+			    >	
       {props.label}
-    </Buttonbase>
+    </button>
   )
-
 }
 
 export default Button;

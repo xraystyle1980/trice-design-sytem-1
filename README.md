@@ -1,10 +1,6 @@
-# How to update
-
-### `npm i trice-design-sytem-1`
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 
@@ -19,3 +15,7 @@ You may also see any lint errors in the console.
 ### `npm build`
 
 Make new design system `dist` components
+
+## How to update
+
+### `npm i trice-design-sytem-1`

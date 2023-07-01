@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Design System Source
+          Trice Design System
         </h1>
         <label className='label-base'>Getting Started</label>
         <code>

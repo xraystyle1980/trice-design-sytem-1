@@ -2,6 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Available Scripts
 
+## How to install
+
+Install the NPM package
+
+`npm i trice-design-sytem-1`
+
 In the project directory, you can run:
 
 `npm start`
@@ -17,5 +23,7 @@ You may also see any lint errors in the console.
 Make new design system `dist` components
 
 ## How to update
+
+Resinstall the NPM package
 
 `npm i trice-design-sytem-1`

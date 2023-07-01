@@ -6,13 +6,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <h1>
           Design System Source
-        </p>
-
+        </h1>
+<caption>Button</caption>
         <Button label="Howdy ho" />
         <br />
-        <Box boxlabel="Large input field" boxcontent="What's your name?" />
+        <div style={{
+          background: '#000',
+          height: 'auto',
+          padding: '2px',
+          width: '70%',
+          margin: '2rem;'
+         }}></div>
+         <br />
+         <caption>Input with label</caption>
+        <Box boxlabel="Enter your name to get started" boxcontent="What's your name?" />
 
       </header>
     </div>

@@ -9,16 +9,21 @@ function App() {
         <h1>
           Design System Source
         </h1>
+        <hr style={{
+          borderTop: '2px dashed #383B44',
+          borderBottom: '0px',
+          width: '100%',
+          margin: '2rem 0'
+         }} />
         <h6>Button</h6>
         <Button label="Howdy ho" />
         <br />
-        <div style={{
-          background: '#000',
-          height: 'auto',
-          padding: '2px',
-          width: '70%',
-          margin: '2rem;'
-         }}></div>
+        <hr style={{
+          borderTop: '2px dashed #383B44',
+          borderBottom: '0px',
+          width: '100%',
+          margin: '2rem 0'
+         }} />
          <br />
          <h6>Input with label</h6>
         <Box boxlabel="Enter your name to get started" boxcontent="What's your name?" />

@@ -8,12 +8,16 @@ const Box = (props) => {
       flexDirection: 'column',
       alignItems: 'start',
       background: 'rgba(0,0,0,0.3)',
-      padding: '2rem',
-      margin: '1rem 0 1.5rem 0'
+      padding: '1rem 2rem 2rem',
+      margin: '1rem 0 1.5rem 0',
+      borderRadius: '1.65rem'
       }}>
-      <label>{props.boxlabel}</label>
-      <br />
-    <input type='text' className='box' placeholder={props.boxcontent}
+      <h6 style={{
+        margin: '1.5rem 0 1.35rem 0'
+        }}>
+          {props.boxlabel}
+      </h6>
+      <input type='text' className='box' placeholder={props.boxcontent}
       style={{
         background: '#fafafa',
         color: 'black',

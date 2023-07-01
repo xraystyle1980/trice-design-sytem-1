@@ -18,4 +18,4 @@ You may also see any lint errors in the console.
 
 ### `npm build`
 
-Make new design system 'dist' components
+Make new design system `dist` components

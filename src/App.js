@@ -9,7 +9,7 @@ function App() {
         <h1>
           Design System Source
         </h1>
-<caption>Button</caption>
+        <h6>Button</h6>
         <Button label="Howdy ho" />
         <br />
         <div style={{
@@ -20,7 +20,7 @@ function App() {
           margin: '2rem;'
          }}></div>
          <br />
-         <caption>Input with label</caption>
+         <h6>Input with label</h6>
         <Box boxlabel="Enter your name to get started" boxcontent="What's your name?" />
 
       </header>

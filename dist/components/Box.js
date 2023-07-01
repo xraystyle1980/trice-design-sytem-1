@@ -22,12 +22,13 @@ const Box = props => {
       color: 'black',
       display: 'inline-flex',
       width: '100%',
-      height: '200px',
+      minHeight: '3rem',
       justifyContent: 'center',
       alignItems: 'center',
       padding: '2rem 4rem',
-      borderRadius: '0.65em',
-      fontSize: '1.2em',
+      borderRadius: '1rem',
+      border: '4px solid black',
+      fontSize: '2rem',
       cursor: 'pointer'
     }
   }));

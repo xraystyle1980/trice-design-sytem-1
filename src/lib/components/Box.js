@@ -29,8 +29,7 @@ const Box = (props) => {
         padding: '2rem 4rem 2rem 1rem',
         borderRadius: '1rem',
         border: '4px solid black',
-        fontSize: '2rem',
-        cursor: 'pointer'
+        fontSize: '2rem'
       }}
     />	
     </div>

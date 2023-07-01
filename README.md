@@ -21,9 +21,10 @@ You may also see any lint errors in the console.
 `npm build`
 
 Make new design system `dist` components
+*This step is required for composability
 
 ## How to update
 
-Resinstall the NPM package
+Resinstall the `NPM` package
 
 `npm i trice-design-sytem-1`
